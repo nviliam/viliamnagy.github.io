@@ -1,0 +1,56 @@
+.HeaderAnakin {
+  position: relative;
+  text-align: center;
+}
+
+.centered1 {
+  position: absolute;
+  top: 63%;
+  left: 62%;
+  transform: translate(-50%, -50%);
+  font-family: 'Abril Fatface', serif;
+  color: #aaadab;
+  font-size: 20px
+}
+
+.centered2 {
+  position: absolute;
+  top: 70%;
+  left: 68%;
+  transform: translate(-50%, -50%);
+  font-family: 'Abril Fatface', serif;
+  color: #aaadab;
+  font-size: 30px;
+}
+
+.text {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+ ul.a {
+  list-style-type: circle;
+}
+
+.block {
+  background: #45423e;
+  padding: 0px;
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
+.rule {
+    font-family: 'Abril Fatface', serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.rule::before {
+  content: '”';
+  font-size: 80px;
+  margin: -15px;
+  padding: -10px;
+}
